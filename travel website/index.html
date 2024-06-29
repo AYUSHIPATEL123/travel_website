@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f30fac2c61.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1>SmarTravel</h1>
+        </div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#book">Book</a></li>
+          <li><a href="#package">Destinations</a></li>
+          <li><a href="#place">Reviews</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="icons">
+          <i id="bar" class="fa-solid fa-bars"></i>
+          <i id="user" class="fa-solid fa-user"></i>
+        </div>
+      </nav>
+
+      <div class="main">
+        <div class="mainText">
+          <h1>
+            Pack Your Bagpacks<br />
+            Just Go...
+          </h1>
+          <button>Explore More</button>
+        </div>
+      </div>
+
+      <div class="book" id="book">
+        <div class="head">
+          <h1>Book <span>Here</span></h1>
+        </div>
+        <div class="booking">
+          <div class="form">
+            <h2>Book Your Trip Now</h2>
+            <p>Place Name</p>
+            <input type="text" placeholder="which place" id="placeName" />
+            <p>No Of Travellers </p>
+            <input type="number"/>
+            <p>Journey Starts</p>
+            <input type="date"/>
+            <p>Journey Ends </p>
+            <input type="date"/>
+            <button id="submit">Submit</button>
+          </div>
+          <img src="images/36558b959935ee5895cee23415c4709e.png" alt="viy" />
+        </div>
+      </div>
+
+      <div class="pack" id="package">
+        <div class="head">
+          <h1>Popular <span>Destinations</span></h1>
+        </div>
+        <div class="packages">
+          <div class="card">
+            <img src="images/burj-khalifa.jpg" alt="" />
+            <h3>Dubai</h3>
+            <p>BURJ KHALIFA</p>
+            <p>prize : 300$</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
+          </div>
+          <div class="card">
+            <img src="images/tokyo.jpg" alt="" />
+            <h3>Japan</h3>
+            <p>TOKYO</p>
+            <p>prize : 350$</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
+          </div>
+          <div class="card">
+            <img src="images/koh-phi-phi.jpg" alt="" />
+            <h3>Thailand</h3>
+            <p>KOH PHI PHI</p>
+            <p>prize : 150$</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="best" id="place">
+        <div class="head">
+          <h1>Reviews<span></span></h1>
+        </div>
+        <div class="places">
+          <div class="PlaceCard">
+            <h3>mr.x</h3>
+            <p>experience : nice</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="PlaceCard">
+            <h3>mr.y</h3>
+            <p>experience : good</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="PlaceCard">
+            <h3>mr.x</h3>
+            <p>experience : good servise</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="PlaceCard">
+            <h3>mr.x</h3>
+            <p>experience : poor</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="connect" id="contact">
+        <div class="head">
+          <h1>Contact <span>Us</span></h1>
+        </div>
+        <div class="contact">
+          <img src="images/image (1).png" alt="" />
+          <div class="contactForm">
+            <p>Name</p>
+            <input type="text" placeholder="Enter Name" />
+            <p>Email</p>
+            <input type="text" placeholder="Enter Email" />
+            <button>Contact</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="text">
+          <h3>About Us</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing <br />
+            Lorem ipsum dolor, sit amet consectetur adipisicing <br />
+            elit. Facere obcaecati doloremque aut voluptates vero <br />
+            <br />
+            sequi velit magni, accusantium architecto!
+          </p>
+        </div>
+        <div class="text">
+          <h3>Tour</h3>
+          <p>Quality</p>
+          <p>Price</p>
+          <p>Affordable</p>
+        </div>
+        <div class="text">
+          <h3>Address</h3>
+          <p>100-323-5678</p>
+          <p>gohel complex</p>
+          <p>Gujarat</p>
+        </div>
+      </div>
+
+      <div class="loginPage">
+        <input type="text" placeholder="Enter Email" id="email" /><br />
+        <input type="password" placeholder="Enter password" id="pass" /><br />
+        <button id="loginBtn">Log In</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
